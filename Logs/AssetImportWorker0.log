@@ -1,106 +1,1557 @@
 Using pre-set license
-Built from '2020.2/staging' branch; Version is '2020.2.5f1 (e2c53f129de5) revision 14861631'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1826; Version 2009; 64bit' Language: 'fr' Physical Memory: 16300 MB
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1826; Version 2009; 64bit' Language: 'en' Physical Memory: 8106 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Formations2020/LearningKids
+C:/Users/PC/Documents/Unity/LearningKids
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58553
-Successfully changed project path to: D:/Formations2020/LearningKids
-D:/Formations2020/LearningKids
+52816
+Successfully changed project path to: C:/Users/PC/Documents/Unity/LearningKids
+C:/Users/PC/Documents/Unity/LearningKids
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.5f1 (e2c53f129de5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Formations2020/LearningKids/Assets
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/Unity/LearningKids/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon(TM) 520 (ID=0x6660)
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
     Vendor:   
-    VRAM:     2039 MB
-    Driver:   21.19.412.1280
+    VRAM:     12243 MB
+    Driver:   30.0.13023.4001
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004549 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002107 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.739 seconds
+- Completed reload, in  2.900 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006967 seconds.
+Registered in 0.002672 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.610 seconds
+- Completed reload, in  0.658 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.5 MB.
-System memory in use after: 83.6 MB.
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 4.040900 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.143600 ms MarkObjects: 3.397700 ms  DeleteObjects: 0.203900 ms)
+Total: 1.902900 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.560900 ms  DeleteObjects: 0.126300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c650fa389dee4294e470709b3cbcaa10') in 0.045473 seconds
-  Import took 0.051143 seconds .
+  path: Assets/Scripts/PanelOpener.cs
+  artifactKey: Guid(94ba9bb05ac34d44582fee3f59a288f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PanelOpener.cs using Guid(94ba9bb05ac34d44582fee3f59a288f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf1030ef69e400b623761c41cc36ca') in 0.013523 seconds 
+  Import took 0.015802 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003563 seconds.
+Registered in 0.002593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
+- Completed reload, in  0.578 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.2 MB.
-System memory in use after: 82.3 MB.
+System memory in use before: 83.3 MB.
+System memory in use after: 83.4 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 2.337000 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.918100 ms  DeleteObjects: 0.099700 ms)
+Total: 1.590000 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.347000 ms  DeleteObjects: 0.061200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.865300 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.605100 ms  DeleteObjects: 0.072200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.573 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 1.690200 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.458300 ms  DeleteObjects: 0.058900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 486.158546 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e1ba283b1ebbdda8b994ec754ae01') in 0.009516 seconds 
+  Import took 0.012169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.351499 seconds.
+  path: Assets/Scenes/Select-Level.unity
+  artifactKey: Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select-Level.unity using Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e5c5d8f321d44f2b0f936cbeb0e80') in 0.002017 seconds 
+  Import took 0.004537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.549362 seconds.
+  path: Assets/Scenes/Select-Level 1.scenetemplate
+  artifactKey: Guid(e671d9b71de2494409b96ecb8a318148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select-Level 1.scenetemplate using Guid(e671d9b71de2494409b96ecb8a318148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2f1765f80162385487192130c66894') in 0.152504 seconds 
+  Import took 0.157279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.974075 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7521cb3ea4dde658522c76d4afc63c') in 0.001859 seconds 
+  Import took 0.004176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 941.834006 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures
+  artifactKey: Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures using Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828635cc2f755d053c3884190e671ca4') in 0.002246 seconds 
+  Import took 0.004335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures
+  artifactKey: Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures using Guid(89fac321af2bad14eb25a5915717f85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828635cc2f755d053c3884190e671ca4') in 0.001219 seconds 
+  Import took 0.002576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774822 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts
+  artifactKey: Guid(5b7738eafaaea9f4ca3069d3dfbee10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts using Guid(5b7738eafaaea9f4ca3069d3dfbee10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf754a4fce7528f9b663d0bcda07be') in 0.002113 seconds 
+  Import took 0.004249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.818584 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path
+  artifactKey: Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path using Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca5989b4afa7a1fc2853293066bddd') in 0.001836 seconds 
+  Import took 0.003768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path
+  artifactKey: Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path using Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca5989b4afa7a1fc2853293066bddd') in 0.001527 seconds 
+  Import took 0.003640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 440.944310 seconds.
+  path: Assets/2D images/elem.png
+  artifactKey: Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem.png using Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e10313f8655363a8409fb4758e332') in 0.157177 seconds 
+  Import took 0.159608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.133529 seconds.
+  path: Assets/2D images/elem.png
+  artifactKey: Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem.png using Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03078d3439063f64afcf4bf87d8a21d4') in 0.022104 seconds 
+  Import took 0.024046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 5.352000 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.064000 ms MarkObjects: 4.539000 ms  DeleteObjects: 0.348300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1257.170693 seconds.
+  path: Assets/2D images/elem.png
+  artifactKey: Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem.png using Guid(a10692e4ca422d04b8ecc47139408df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32349e20de724162af7ee3205949489') in 0.085508 seconds 
+  Import took 0.087976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3682.931574 seconds.
+  path: Assets/Scenes/MainGame/ANIMAL.png
+  artifactKey: Guid(a2e00579a5d98234091814fc2b5dd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/ANIMAL.png using Guid(a2e00579a5d98234091814fc2b5dd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498d1f834e51002642638f82fc726209') in 0.038574 seconds 
+  Import took 0.055418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Scenes/MainGame/GUI.png
+  artifactKey: Guid(d404d32e75c1b324ead696d98550505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/GUI.png using Guid(d404d32e75c1b324ead696d98550505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168457e80847442900754a6953d617da') in 0.120673 seconds 
+  Import took 0.122745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Scenes/MainGame/btn.png
+  artifactKey: Guid(86ee97c051afce14c8cefadca5579f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/btn.png using Guid(86ee97c051afce14c8cefadca5579f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a0271728008c985d516bddc4c2c52') in 0.006270 seconds 
+  Import took 0.008182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Scenes/MainGame/Faucon.png
+  artifactKey: Guid(09ad164058f03784cbbaa67336b8b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Faucon.png using Guid(09ad164058f03784cbbaa67336b8b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2f3c9c4e25cfe90c02661cd9a8299') in 0.007163 seconds 
+  Import took 0.008858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Scenes/MainGame/Asset 5.png
+  artifactKey: Guid(ea266c8470d239d4f9ff30eb077c5bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Asset 5.png using Guid(ea266c8470d239d4f9ff30eb077c5bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a987efdb61cc9cbc7c3ae39622fca26e') in 0.006127 seconds 
+  Import took 0.007684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Scenes/MainGame/Asset 1.png
+  artifactKey: Guid(68b7d44fc0dc35044adf8dffbeb78dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Asset 1.png using Guid(68b7d44fc0dc35044adf8dffbeb78dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17faa07767dfac9fe0de2a63447af1e8') in 0.008552 seconds 
+  Import took 0.010108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Scenes/MainGame/fruits.png
+  artifactKey: Guid(71cedf775476cc84f9153b8fcaf67d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/fruits.png using Guid(71cedf775476cc84f9153b8fcaf67d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa781dc15e02f12e1c8fc032740797') in 0.016164 seconds 
+  Import took 0.017563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scenes/MainGame/duck_icon.png
+  artifactKey: Guid(fec4f67317a42014788ff38c73588c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/duck_icon.png using Guid(fec4f67317a42014788ff38c73588c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fa1f51fd90006819335cdeccc894e') in 0.007424 seconds 
+  Import took 0.008816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Scenes/MainGame/Asset 6.png
+  artifactKey: Guid(5db189c86bca35c4283567af3abbb3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Asset 6.png using Guid(5db189c86bca35c4283567af3abbb3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec7e16659d93231a166eca113fd32e9') in 0.007697 seconds 
+  Import took 0.009249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Scenes/MainGame/Asset 7.png
+  artifactKey: Guid(0b551f53a9379cb4c8dc9c4bb8351b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Asset 7.png using Guid(0b551f53a9379cb4c8dc9c4bb8351b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482c8c41d61eb10d93bdeec60e4e5a20') in 0.007580 seconds 
+  Import took 0.009529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Scenes/MainGame/Brazil.png
+  artifactKey: Guid(a3bc86e76d76f744fb8d14ac591e019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Brazil.png using Guid(a3bc86e76d76f744fb8d14ac591e019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e77be0242b1824338c8300fcbfc363') in 0.006124 seconds 
+  Import took 0.007359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Scenes/MainGame/box_6.png
+  artifactKey: Guid(7029974ba30a4474bab6f2709015feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/box_6.png using Guid(7029974ba30a4474bab6f2709015feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9348fc19d0e1d01bf9c36184ed4c2392') in 0.007948 seconds 
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3731.427912 seconds.
+  path: Assets/Scenes/MainGame/grass_01.png
+  artifactKey: Guid(07df49e29c2bdf542a3c39682f1e17c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/grass_01.png using Guid(07df49e29c2bdf542a3c39682f1e17c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5c29a64c0f9496b31843564e2cacc4') in 0.015102 seconds 
+  Import took 0.017557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Scenes/MainGame/grass_05.png
+  artifactKey: Guid(74407e50b540592419bfd0072b29c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/grass_05.png using Guid(74407e50b540592419bfd0072b29c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8ffe77a753be71b211e1345084c037') in 0.015497 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Scenes/MainGame/lock.png
+  artifactKey: Guid(6ba127e1ed6485f4e9800bba1df9aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/lock.png using Guid(6ba127e1ed6485f4e9800bba1df9aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542feb6673056ca37664b1452ebcae02') in 0.007841 seconds 
+  Import took 0.009737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Scenes/MainGame/grass_05_maskmap.png
+  artifactKey: Guid(3cbe3c7110929404ab7d38d3c058bc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/grass_05_maskmap.png using Guid(3cbe3c7110929404ab7d38d3c058bc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e99c9ff88020408a35f586f5544a16') in 0.011932 seconds 
+  Import took 0.013570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.249812 seconds.
+  path: Assets/Scenes/MainGame/name.png
+  artifactKey: Guid(82a2ff30558946546b2a4c356e39128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/name.png using Guid(82a2ff30558946546b2a4c356e39128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6307aa91b3c785677d2b5abdb1a095c2') in 0.007824 seconds 
+  Import took 0.009955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127376 seconds.
+  path: Assets/Scenes/MainGame/paris.png
+  artifactKey: Guid(b4653e566fa480a4d8f8ae202919657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/paris.png using Guid(b4653e566fa480a4d8f8ae202919657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc61409820626241e3ec368f64b924e') in 0.010093 seconds 
+  Import took 0.012483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Scenes/MainGame/rectangle.png
+  artifactKey: Guid(0b77e59ab1469c5439f82f9ef3471f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/rectangle.png using Guid(0b77e59ab1469c5439f82f9ef3471f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549304508ae7d50e6a9ea7da771f34c2') in 0.008580 seconds 
+  Import took 0.010042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005243 seconds.
+  path: Assets/Scenes/MainGame/paris.png
+  artifactKey: Guid(b4653e566fa480a4d8f8ae202919657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/paris.png using Guid(b4653e566fa480a4d8f8ae202919657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc61409820626241e3ec368f64b924e') in 0.007467 seconds 
+  Import took 0.008729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.349512 seconds.
+  path: Assets/Scenes/MainGame/Roma.png
+  artifactKey: Guid(0133be2e1f9139d4da29de1a1a0805d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Roma.png using Guid(0133be2e1f9139d4da29de1a1a0805d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b7235ff324594ee2bb4be6d577b5c6') in 0.011140 seconds 
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008247 seconds.
+  path: Assets/Scenes/MainGame/Roma.png
+  artifactKey: Guid(0133be2e1f9139d4da29de1a1a0805d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Roma.png using Guid(0133be2e1f9139d4da29de1a1a0805d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b7235ff324594ee2bb4be6d577b5c6') in 0.004669 seconds 
+  Import took 0.006119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.512736 seconds.
+  path: Assets/Scenes/MainGame/t_stylized_grass_d.png
+  artifactKey: Guid(fe025faec4042434088ef5d5a2f8883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/t_stylized_grass_d.png using Guid(fe025faec4042434088ef5d5a2f8883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd0ae716420c2660b7c278fa0f00652') in 0.007641 seconds 
+  Import took 0.009652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010811 seconds.
+  path: Assets/Scenes/MainGame/t_stylized_grass_d.png
+  artifactKey: Guid(fe025faec4042434088ef5d5a2f8883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/t_stylized_grass_d.png using Guid(fe025faec4042434088ef5d5a2f8883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd0ae716420c2660b7c278fa0f00652') in 0.008050 seconds 
+  Import took 0.009753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.638604 seconds.
+  path: Assets/Scenes/MainGame/taj.png
+  artifactKey: Guid(376796a74097d79448f47dcf60c65232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/taj.png using Guid(376796a74097d79448f47dcf60c65232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cec7200573cd07510520b625aad8d47') in 0.007831 seconds 
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Scenes/MainGame/transport.png
+  artifactKey: Guid(bef1e7537fa3b6244b2757bccb2bc0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/transport.png using Guid(bef1e7537fa3b6244b2757bccb2bc0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2960a18998702600860edb504ca74e') in 0.008006 seconds 
+  Import took 0.009482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/MainGame/TMP - Text Component Icon.psd
+  artifactKey: Guid(68c10fb7de4014a4580b7b0995f60e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/TMP - Text Component Icon.psd using Guid(68c10fb7de4014a4580b7b0995f60e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191b63d4b9c7639106523e3cbe457fa3') in 0.018212 seconds 
+  Import took 0.020487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Scenes/MainGame/taj.png
+  artifactKey: Guid(376796a74097d79448f47dcf60c65232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/taj.png using Guid(376796a74097d79448f47dcf60c65232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cec7200573cd07510520b625aad8d47') in 0.005969 seconds 
+  Import took 0.007595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Scenes/MainGame/TMP - Font Asset Icon.psd
+  artifactKey: Guid(304c405a5e8282548b8473aa05998719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/TMP - Font Asset Icon.psd using Guid(304c405a5e8282548b8473aa05998719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbb9bf26de06ac9bf47781ff5e865cd') in 0.003820 seconds 
+  Import took 0.005612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Scenes/MainGame/tower.png
+  artifactKey: Guid(7d5758834d503c044b0d553ecdeb6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/tower.png using Guid(7d5758834d503c044b0d553ecdeb6d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98682da0dc9f77e188a47810f952a528') in 0.009811 seconds 
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003487 seconds.
+  path: Assets/Scenes/MainGame/x.png
+  artifactKey: Guid(37f4665d531c3904faf9669035a40694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/x.png using Guid(37f4665d531c3904faf9669035a40694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825dc65ce2176e22d15c193595305c6') in 0.007213 seconds 
+  Import took 0.008631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.366985 seconds.
+  path: Assets/Scenes/MainGame/Day6.mat
+  artifactKey: Guid(2055c90c90152c84094d035e4beac611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Day6.mat using Guid(2055c90c90152c84094d035e4beac611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd801bbe04ec63afb8a99d492af3dc6b6') in 0.080911 seconds 
+  Import took 0.083249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.433418 seconds.
+  path: Assets/JKT_Art/UI/Arrow/box_12.psd
+  artifactKey: Guid(e43146d4b1f10034ebd07684aec608e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Arrow/box_12.psd using Guid(e43146d4b1f10034ebd07684aec608e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cd7264ae1505f725088bae548c2a59') in 0.010030 seconds 
+  Import took 0.012996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.731483 seconds.
+  path: Assets/JKT_Art/UI/Arrow/box_12.psd
+  artifactKey: Guid(e43146d4b1f10034ebd07684aec608e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Arrow/box_12.psd using Guid(e43146d4b1f10034ebd07684aec608e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cb5b910463069704c84fa838656b4a') in 0.006690 seconds 
+  Import took 0.009207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.234000 seconds.
+  path: Assets/Scenes/MainGame/lion.png
+  artifactKey: Guid(3456c9df3fa60414e965084ab996e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/lion.png using Guid(3456c9df3fa60414e965084ab996e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976cd4626127c07be7d97f7542692c06') in 0.023803 seconds 
+  Import took 0.026514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/MainGame/Meerkat.png
+  artifactKey: Guid(bf0d66e3fdcf70a4eb60cccf90aa279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Meerkat.png using Guid(bf0d66e3fdcf70a4eb60cccf90aa279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2158f02423349ebc3dc33b314a0eaf8a') in 0.017857 seconds 
+  Import took 0.019678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045169 seconds.
+  path: Assets/Scenes/MainGame/Monkey.png
+  artifactKey: Guid(c7e0457693811af43a58c5b4f0823034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Monkey.png using Guid(c7e0457693811af43a58c5b4f0823034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663e20a679af6f8c860c885edd1fd32') in 0.011877 seconds 
+  Import took 0.014006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002746 seconds.
+  path: Assets/Scenes/MainGame/Monkey.png
+  artifactKey: Guid(c7e0457693811af43a58c5b4f0823034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame/Monkey.png using Guid(c7e0457693811af43a58c5b4f0823034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663e20a679af6f8c860c885edd1fd32') in 0.007096 seconds 
+  Import took 0.008994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.495903 seconds.
+  path: Assets/2D images/elem 1.png
+  artifactKey: Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem 1.png using Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a36330ba18e4f13d04242a18170289') in 0.007365 seconds 
+  Import took 0.009701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.697866 seconds.
+  path: Assets/2D images/elem 1.png
+  artifactKey: Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem 1.png using Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3225e26895a04be922277ae88f5f710') in 0.008725 seconds 
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.756876 seconds.
+  path: Assets/2D images/elem 1.png
+  artifactKey: Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/elem 1.png using Guid(3de8fa2f68326cf428f3f33ff899e7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adfc5895f87dac993346cfcd4b9a57e') in 0.011517 seconds 
+  Import took 0.013581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 1.875500 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.613500 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3445.123845 seconds.
+  path: Assets/2D images/COEUR3.png
+  artifactKey: Guid(5cdcdb14cd34cea4595e424988b47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/COEUR3.png using Guid(5cdcdb14cd34cea4595e424988b47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571e2c40c77de52606e5504fb5a4211') in 0.027406 seconds 
+  Import took 0.029664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2D images/timer.png
+  artifactKey: Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/timer.png using Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b525529da907ebb4125b8b2fa4705c6') in 0.007949 seconds 
+  Import took 0.009803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/2D images/coins.png
+  artifactKey: Guid(ef51027d1c45d454e86fc9c88565f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/coins.png using Guid(ef51027d1c45d454e86fc9c88565f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363a9b5d4c9d595150fcb37db4fd1999') in 0.005621 seconds 
+  Import took 0.007267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.572043 seconds.
+  path: Assets/2D images/COEUR3.png
+  artifactKey: Guid(5cdcdb14cd34cea4595e424988b47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/COEUR3.png using Guid(5cdcdb14cd34cea4595e424988b47bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dcce69f15f720cf57dd883fd10baa6') in 0.020970 seconds 
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/2D images/timer.png
+  artifactKey: Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/timer.png using Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1498c97478e665fff1963ee767463b7a') in 0.013026 seconds 
+  Import took 0.014760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2D images/coins.png
+  artifactKey: Guid(ef51027d1c45d454e86fc9c88565f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/coins.png using Guid(ef51027d1c45d454e86fc9c88565f6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c339cd5e550d68c1b2b03038f37e5dac') in 0.009533 seconds 
+  Import took 0.011021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001280 seconds.
+  path: Assets/2D images/timer.png
+  artifactKey: Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/timer.png using Guid(1e7cadb5b914c274385fb2ef7a9fecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1498c97478e665fff1963ee767463b7a') in 0.009645 seconds 
+  Import took 0.011347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 620.727292 seconds.
+  path: Assets/Sound fx
+  artifactKey: Guid(d88b75841949d2e48a502a5a56106dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx using Guid(d88b75841949d2e48a502a5a56106dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70d1d79443f2a3ffe3d1d4c43a1ebf') in 0.001838 seconds 
+  Import took 0.004045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.811488 seconds.
+  path: Assets/Sound fx/Animals
+  artifactKey: Guid(9b9b66a1a91ff0948b903f2509286632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals using Guid(9b9b66a1a91ff0948b903f2509286632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b97f719a43a8640808519a3eff2d772') in 0.001649 seconds 
+  Import took 0.003835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Sound fx/Animals
+  artifactKey: Guid(9b9b66a1a91ff0948b903f2509286632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals using Guid(9b9b66a1a91ff0948b903f2509286632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b97f719a43a8640808519a3eff2d772') in 0.001362 seconds 
+  Import took 0.002617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.889193 seconds.
+  path: Assets/Sound fx/Animals/Other
+  artifactKey: Guid(1aea172a9bd794b44af3969affefdbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other using Guid(1aea172a9bd794b44af3969affefdbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483ead9bae85e067a810ee76684d5b4a') in 0.002008 seconds 
+  Import took 0.004191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047148 seconds.
+  path: Assets/Sound fx/Animals/Other/Aligator Growls #1.wav
+  artifactKey: Guid(b1f5b803b076a3345af44673ad59af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Aligator Growls #1.wav using Guid(b1f5b803b076a3345af44673ad59af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33793bd40b733a9e80a4e0a4b04df2ed') in 0.115698 seconds 
+  Import took 0.117794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla #1.wav
+  artifactKey: Guid(161471bfc6b976d418f5200db2c8a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla #1.wav using Guid(161471bfc6b976d418f5200db2c8a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70205adc362b42e3912f916b540a649c') in 0.007765 seconds 
+  Import took 0.009837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sound fx/Animals/Other/Komodo Dragon Hiss.wav
+  artifactKey: Guid(1a62074e995c1114db71c6e84e4199de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Komodo Dragon Hiss.wav using Guid(1a62074e995c1114db71c6e84e4199de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e04848c0f13ea963401fff53432b06a') in 0.006647 seconds 
+  Import took 0.008469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sound fx/Animals/Other/Many Horse Galloping.wav
+  artifactKey: Guid(68af2f6a6b4da944982bfd288342aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Many Horse Galloping.wav using Guid(68af2f6a6b4da944982bfd288342aa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e3d7a64e42006c71fc708068e3b809') in 0.005401 seconds 
+  Import took 0.007079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sound fx/Animals/Other/Bear Growl #2.wav
+  artifactKey: Guid(ded7a26b35179d646b87dd2185df2ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Bear Growl #2.wav using Guid(ded7a26b35179d646b87dd2185df2ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdeec62496e6d2f7e6fe16eac7ac039') in 0.008292 seconds 
+  Import took 0.010039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Roars #1.wav
+  artifactKey: Guid(bd68bed4f9e960e42aac4bc561843b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Roars #1.wav using Guid(bd68bed4f9e960e42aac4bc561843b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ee47b542bc430a17d4a18e09f8ddde') in 0.014032 seconds 
+  Import took 0.015718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Walks #1.wav
+  artifactKey: Guid(850898035b0838c479d4476f71ea7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Walks #1.wav using Guid(850898035b0838c479d4476f71ea7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2b382df8a6ddbe32d7fb9be70b2616') in 0.005176 seconds 
+  Import took 0.006654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Whines.wav
+  artifactKey: Guid(88544a1b7f77f7441858a38e033351f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Whines.wav using Guid(88544a1b7f77f7441858a38e033351f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0002cdeedcc27e911f487d6a85e924') in 0.004951 seconds 
+  Import took 0.006264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sound fx/Animals/Other/Duck Quacking.wav
+  artifactKey: Guid(a68d0f9af2db4a1488d3791cb40929e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Duck Quacking.wav using Guid(a68d0f9af2db4a1488d3791cb40929e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88daa4f691940bfc36f0ed4ff5d7005') in 0.004896 seconds 
+  Import took 0.006289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Chirps #2.wav
+  artifactKey: Guid(6b8284b4401c6074099819d25eeb81a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Chirps #2.wav using Guid(6b8284b4401c6074099819d25eeb81a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd754f11b6e0a57ec79bf7a3a547f13ab') in 0.004747 seconds 
+  Import took 0.006248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sound fx/Animals/Other/Bear Lunch.wav
+  artifactKey: Guid(5c99de0edc496ee4b83f9951383ea0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Bear Lunch.wav using Guid(5c99de0edc496ee4b83f9951383ea0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16aa08e1c2ee694fa1466c13cdf82b') in 0.005534 seconds 
+  Import took 0.007089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Walking Style.wav
+  artifactKey: Guid(8dd129d7b1f4b584e8637307d22651fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Walking Style.wav using Guid(8dd129d7b1f4b584e8637307d22651fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe23f7db01f008972e95a25cf7fbdb23') in 0.005166 seconds 
+  Import took 0.006625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Walking On Dirt.wav
+  artifactKey: Guid(894987e5e436ad34788b5920973c6c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Walking On Dirt.wav using Guid(894987e5e436ad34788b5920973c6c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0a7a66655145c9e1467b0ce3536b4e') in 0.005700 seconds 
+  Import took 0.007229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Roars #2.wav
+  artifactKey: Guid(6e5e3fca3acc9584c8c951a7931607f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Roars #2.wav using Guid(6e5e3fca3acc9584c8c951a7931607f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d9f33c96c2dc42a0693ce4864b34b1') in 0.006287 seconds 
+  Import took 0.007860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sound fx/Animals/Other/Elephant Growl Low #2.wav
+  artifactKey: Guid(6b61ea119d57512459edb2e3bbedd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Elephant Growl Low #2.wav using Guid(6b61ea119d57512459edb2e3bbedd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32580ffea3683dfbd72fb85f6ce3613e') in 0.005876 seconds 
+  Import took 0.007336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #2.wav
+  artifactKey: Guid(890c05e94342caa49a86e46f2d573e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #2.wav using Guid(890c05e94342caa49a86e46f2d573e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183bf969803c651eb20f7b34f036bfc9') in 0.005428 seconds 
+  Import took 0.007142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sound fx/Animals/Other/Cows.wav
+  artifactKey: Guid(2f7f4273a22f82a4d9b044ee9deba00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Cows.wav using Guid(2f7f4273a22f82a4d9b044ee9deba00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95a48d15535be01121d3c267ebbc34f') in 0.005551 seconds 
+  Import took 0.007176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Screeches #2.wav
+  artifactKey: Guid(af814b94eb20fb044b0cee8bbb4e1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Screeches #2.wav using Guid(af814b94eb20fb044b0cee8bbb4e1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c84f640557da747471e6ff328b50bea') in 0.005181 seconds 
+  Import took 0.006601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Chest.wav
+  artifactKey: Guid(d7f40c8d48cd7254b8975523ebfe2705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Chest.wav using Guid(d7f40c8d48cd7254b8975523ebfe2705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecebcc4227fb7adf70d5e7988740f6a') in 0.005074 seconds 
+  Import took 0.006679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Snarl #2.wav
+  artifactKey: Guid(148b342aa1b1edc408354a3f02d2e991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Snarl #2.wav using Guid(148b342aa1b1edc408354a3f02d2e991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f91d7329657d767fb1f216d0fc54700') in 0.005870 seconds 
+  Import took 0.007255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Sound fx/Animals/Other/Bear Growl #4.wav
+  artifactKey: Guid(0282c550a542d4a4199190fecc238560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Bear Growl #4.wav using Guid(0282c550a542d4a4199190fecc238560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015a1ed78c5aa24ac0ccc4ca4f406df5') in 0.005460 seconds 
+  Import took 0.006672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #1.wav
+  artifactKey: Guid(9c093d71ea7cc654286e079179a6527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #1.wav using Guid(9c093d71ea7cc654286e079179a6527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9f900db8658679c1f1a0463a3a2ac5') in 0.005645 seconds 
+  Import took 0.007253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sound fx/Animals/Other/Elephant Growl Low #1.wav
+  artifactKey: Guid(b1f27523d3115c549bdcf3847f618a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Elephant Growl Low #1.wav using Guid(b1f27523d3115c549bdcf3847f618a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0f9a7888f38371579f1f09517d540f') in 0.005694 seconds 
+  Import took 0.007173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Roars #3.wav
+  artifactKey: Guid(a06da7998234f5c4aafee959577fefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Roars #3.wav using Guid(a06da7998234f5c4aafee959577fefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadfd6d9a4d739544753a6856cc3d1da') in 0.005342 seconds 
+  Import took 0.006858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sound fx/Animals/Other/Aligator Hiss #1.wav
+  artifactKey: Guid(3be298f555c2d354bba31447c1bd876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Aligator Hiss #1.wav using Guid(3be298f555c2d354bba31447c1bd876d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44eea199a776d3e9c0293bebac3be8c') in 0.006060 seconds 
+  Import took 0.007741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sound fx/Animals/Other/Gorilla Snarl #1.wav
+  artifactKey: Guid(63437cff85c8d7c43862abd0b4790d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Gorilla Snarl #1.wav using Guid(63437cff85c8d7c43862abd0b4790d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343a09bd758a7e9cc8cc82f8070b0244') in 0.005245 seconds 
+  Import took 0.006708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Group Gallop.wav
+  artifactKey: Guid(9bac3f429b996c54f912449e224c69e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Group Gallop.wav using Guid(9bac3f429b996c54f912449e224c69e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae9f4191b54f09f7e38df6cca711157') in 0.007090 seconds 
+  Import took 0.008726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Sound fx/Animals/Other/Sheep.wav
+  artifactKey: Guid(9056c058ab4786046a7fe238811680b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Sheep.wav using Guid(9056c058ab4786046a7fe238811680b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ff6f5bae8eca01ca07fcb312b0df69') in 0.006087 seconds 
+  Import took 0.007830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Chirps #3.wav
+  artifactKey: Guid(bfd173be77fe03d459a2771dfb2f36e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Chirps #3.wav using Guid(bfd173be77fe03d459a2771dfb2f36e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9650d80bc98d83c3697c3bce77c3373f') in 0.005197 seconds 
+  Import took 0.006751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Neigh.wav
+  artifactKey: Guid(672cd91e8ac57234fb9841e4b3254c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Neigh.wav using Guid(672cd91e8ac57234fb9841e4b3254c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b263f002f6daeb88b595750aba0670aa') in 0.005545 seconds 
+  Import took 0.006979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sound fx/Animals/Other/Bear Growl #3.wav
+  artifactKey: Guid(41bfcb5bd1f04f640b95a291fdd63784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Bear Growl #3.wav using Guid(41bfcb5bd1f04f640b95a291fdd63784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e4bc810db4bc5b20484993dca3fc98') in 0.004991 seconds 
+  Import took 0.006257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Screeches #3.wav
+  artifactKey: Guid(faaf4afadb204db4baa8d4d6c5e80cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Screeches #3.wav using Guid(faaf4afadb204db4baa8d4d6c5e80cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e634fa05d1af7946a554ee2c0ad2df16') in 0.005379 seconds 
+  Import took 0.006988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #3.wav
+  artifactKey: Guid(9a7b828302ef71841aaf54ac35d503d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Baby Chirps #3.wav using Guid(9a7b828302ef71841aaf54ac35d503d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2945b44c48b84d2151de77d50333681') in 0.005389 seconds 
+  Import took 0.006896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sound fx/Animals/Other/Sheep And Goats.wav
+  artifactKey: Guid(5197847cd0e24eb4989fe5b807a162fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Sheep And Goats.wav using Guid(5197847cd0e24eb4989fe5b807a162fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04fec662f0b173a48c843dbb4efbc0f') in 0.005245 seconds 
+  Import took 0.006755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Screeches #4.wav
+  artifactKey: Guid(a70a9a13912d50c428ea5f55da15a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Screeches #4.wav using Guid(a70a9a13912d50c428ea5f55da15a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8c7ae5c86e5aebdd6bc3783930623a') in 0.006584 seconds 
+  Import took 0.008084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Other/Aligator Growls #2.wav
+  artifactKey: Guid(45e74223cc22bcd449af0a17d4cd9c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Aligator Growls #2.wav using Guid(45e74223cc22bcd449af0a17d4cd9c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b1340060212d5476990d56300eb88a') in 0.006944 seconds 
+  Import took 0.008323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Crossing Wood.wav
+  artifactKey: Guid(6e062d063aa687b47955ebc2ec70e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Crossing Wood.wav using Guid(6e062d063aa687b47955ebc2ec70e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce2f75ee881494d5418b628b5efaf0d') in 0.005892 seconds 
+  Import took 0.007745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Walks #2.wav
+  artifactKey: Guid(1ea9045179a964742b6b5340621d1191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Walks #2.wav using Guid(1ea9045179a964742b6b5340621d1191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a34d4c627697881674dd34ca8a8d4f') in 0.005464 seconds 
+  Import took 0.006860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Screeches #1.wav
+  artifactKey: Guid(e11e7a9f8565c064d8d9337e801497ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Screeches #1.wav using Guid(e11e7a9f8565c064d8d9337e801497ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac1b704f69e097090c1e71ca69840b') in 0.004965 seconds 
+  Import took 0.006193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sound fx/Animals/Other/Horse Grunt.wav
+  artifactKey: Guid(dd425748e224abe4d86f176182ee2426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Horse Grunt.wav using Guid(dd425748e224abe4d86f176182ee2426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c131c9da0680ebc8442502b44f90b717') in 0.005058 seconds 
+  Import took 0.006825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sound fx/Animals/Other/Bear Growl #1.wav
+  artifactKey: Guid(8e027a6d4adba5c4f90beaf5e584eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Bear Growl #1.wav using Guid(8e027a6d4adba5c4f90beaf5e584eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409ebe160568846de9b6015527e335e6') in 0.005654 seconds 
+  Import took 0.007107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Chirps #1.wav
+  artifactKey: Guid(f1258875a5479a249a7acf2e5f6d6392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Chirps #1.wav using Guid(f1258875a5479a249a7acf2e5f6d6392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0056a05fcbbb2c8e336525f5558a30e9') in 0.005450 seconds 
+  Import took 0.006983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sound fx/Animals/Other/Aligator Hiss #2.wav
+  artifactKey: Guid(c3b8e6bcba7780b459a254e495e4bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/Aligator Hiss #2.wav using Guid(c3b8e6bcba7780b459a254e495e4bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551a0ef34a1825be1ad5795e41bae5f7') in 0.005929 seconds 
+  Import took 0.007485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sound fx/Animals/Other/MONKEY Chirps #4.wav
+  artifactKey: Guid(ad41b35eddda9cf469de5851b39694e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Other/MONKEY Chirps #4.wav using Guid(ad41b35eddda9cf469de5851b39694e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e7f15d57ca049325753043d57642bf') in 0.006432 seconds 
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.916196 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling
+  artifactKey: Guid(983643160df8f6d478a18102bf5a19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling using Guid(983643160df8f6d478a18102bf5a19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a3ac25416aa27cb47f1b484f8ad615') in 0.002101 seconds 
+  Import took 0.004386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling
+  artifactKey: Guid(983643160df8f6d478a18102bf5a19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling using Guid(983643160df8f6d478a18102bf5a19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a3ac25416aa27cb47f1b484f8ad615') in 0.001385 seconds 
+  Import took 0.003041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056684 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #1.wav
+  artifactKey: Guid(1e3972e432e9a8449a5df2d78e56f8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #1.wav using Guid(1e3972e432e9a8449a5df2d78e56f8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c42d8be7aa6f514a214d0cd592b17') in 0.005733 seconds 
+  Import took 0.007899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #5.wav
+  artifactKey: Guid(002471831daf5c04c813beb2b3f404f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #5.wav using Guid(002471831daf5c04c813beb2b3f404f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c254ae11611b294a0e993ce62f8e89d') in 0.005132 seconds 
+  Import took 0.006607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #7.wav
+  artifactKey: Guid(428c738b6b4aa054bb9e4f0a658e1c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #7.wav using Guid(428c738b6b4aa054bb9e4f0a658e1c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e192b8489ead6533dbbe842766bd122') in 0.005205 seconds 
+  Import took 0.006918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #6.wav
+  artifactKey: Guid(9539ad6ecfc66f84883d599658f21420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #6.wav using Guid(9539ad6ecfc66f84883d599658f21420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdf40f1f41432c66d5305a06b7f0462') in 0.004800 seconds 
+  Import took 0.006534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #4.wav
+  artifactKey: Guid(e7b577852346afb42a418adf09728d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #4.wav using Guid(e7b577852346afb42a418adf09728d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146b2f715ab5ad1fa01962c8ddedfceb') in 0.006116 seconds 
+  Import took 0.007709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #3.wav
+  artifactKey: Guid(7ba623b1e70e4a64081d574415535956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #3.wav using Guid(7ba623b1e70e4a64081d574415535956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5bb322cb09065c5b990c84c74c81c6') in 0.005620 seconds 
+  Import took 0.007388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sound fx/Animals/Wolf Hawling/Wolf #2.wav
+  artifactKey: Guid(f533f12a13607e5468c9fa6a69c31e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Wolf Hawling/Wolf #2.wav using Guid(f533f12a13607e5468c9fa6a69c31e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce3ab8baa9152bf1f51e8f966a92342') in 0.007501 seconds 
+  Import took 0.008963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.295322 seconds.
+  path: Assets/Sound fx/Animals/Birds
+  artifactKey: Guid(58ac932e716bc53488ef0ff584b0c29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds using Guid(58ac932e716bc53488ef0ff584b0c29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bad5aa09f5de874c069226ebbc36ab2') in 0.001702 seconds 
+  Import took 0.003788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080302 seconds.
+  path: Assets/Sound fx/Animals/Birds/Bats #1.wav
+  artifactKey: Guid(b3685314e6ac18641a640f2605a3256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Bats #1.wav using Guid(b3685314e6ac18641a640f2605a3256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57cb14aee56ed42b9a27012bcc28f53') in 0.006214 seconds 
+  Import took 0.008224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sound fx/Animals/Birds/Parrot Squacking.wav
+  artifactKey: Guid(8932ffc2d6fd1394ea7a40d9d41cc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Parrot Squacking.wav using Guid(8932ffc2d6fd1394ea7a40d9d41cc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c91bac19801a07c6b03e71ef69b758') in 0.005199 seconds 
+  Import took 0.006450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sound fx/Animals/Birds/Crow Caws.wav
+  artifactKey: Guid(b5a7c4b7f3f26b64db32dbb52e95b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Crow Caws.wav using Guid(b5a7c4b7f3f26b64db32dbb52e95b680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6339f85ae08dd220606e9689d9bb2e02') in 0.006782 seconds 
+  Import took 0.007956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sound fx/Animals/Birds/Wings Flap.wav
+  artifactKey: Guid(f702ff262de210e47b859501c2692bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Wings Flap.wav using Guid(f702ff262de210e47b859501c2692bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8503c28d8fbb11f6f61290da5e5b4fca') in 0.004917 seconds 
+  Import took 0.006529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Sound fx/Animals/Birds/Bats #2.wav
+  artifactKey: Guid(75355c211dab43a48aee1ca0942e5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Bats #2.wav using Guid(75355c211dab43a48aee1ca0942e5a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65958694a117b21d8600ae00f7baa71') in 0.005013 seconds 
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Sound fx/Animals/Birds/Parrot Call #2.wav
+  artifactKey: Guid(df1caf81a7c12c64a98520134a425a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Parrot Call #2.wav using Guid(df1caf81a7c12c64a98520134a425a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa7e64c16ea8a004a12e632d7e760c3') in 0.004965 seconds 
+  Import took 0.006327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sound fx/Animals/Birds/Parrot Call #1.wav
+  artifactKey: Guid(15212165e88f8bd448704fd74bfd1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Parrot Call #1.wav using Guid(15212165e88f8bd448704fd74bfd1e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a7c345a1c213f1e6a0a41389c8d929') in 0.005303 seconds 
+  Import took 0.007024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sound fx/Animals/Birds/Parrot Call #3.wav
+  artifactKey: Guid(1b350a240b1da0a40a93aad79418e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Parrot Call #3.wav using Guid(1b350a240b1da0a40a93aad79418e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0abb34d1fbf4311720c22ee3f587c51') in 0.005574 seconds 
+  Import took 0.007091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sound fx/Animals/Birds/Owls Hooting.wav
+  artifactKey: Guid(5f53164899f1cf24c8b2ac54d55e0db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Birds/Owls Hooting.wav using Guid(5f53164899f1cf24c8b2ac54d55e0db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873bb93007a1d6687e0f835ac735824') in 0.004934 seconds 
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406563 seconds.
+  path: Assets/Sound fx/Animals/Cat
+  artifactKey: Guid(cb717e345f7bdc54e9c222aaf6e6ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Cat using Guid(cb717e345f7bdc54e9c222aaf6e6ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938a81dfd1cd8aedb970c7261bbeaa71') in 0.001714 seconds 
+  Import took 0.004257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333169 seconds.
+  path: Assets/Sound fx/Animals/Cat/Die Meows.wav
+  artifactKey: Guid(c90ea2f3ba0441640a1c544bd84bdead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Cat/Die Meows.wav using Guid(c90ea2f3ba0441640a1c544bd84bdead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51448d197f5f4893c0b5b2a51a8b485d') in 0.006380 seconds 
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sound fx/Animals/Cat/Meows #3.wav
+  artifactKey: Guid(6fce3732aa88d1a42ad9b340def57383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Cat/Meows #3.wav using Guid(6fce3732aa88d1a42ad9b340def57383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c76a16524993fd018c05ea82ec83608') in 0.005870 seconds 
+  Import took 0.007672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sound fx/Animals/Cat/Meows #2.wav
+  artifactKey: Guid(3a651520edab5aa42bbcbfa58031335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Cat/Meows #2.wav using Guid(3a651520edab5aa42bbcbfa58031335d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2edb6550efd6779c22947b7171093f') in 0.005461 seconds 
+  Import took 0.007052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Sound fx/Animals/Cat/Meows #1.wav
+  artifactKey: Guid(dcecab7e051673748998c88305850579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Cat/Meows #1.wav using Guid(dcecab7e051673748998c88305850579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7e1d1485f8bb4967f2c8afaae268ff') in 0.005179 seconds 
+  Import took 0.006698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.931061 seconds.
+  path: Assets/Sound fx/Animals/Dogs
+  artifactKey: Guid(9c4495044ea3eb24b86f55c332fe60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs using Guid(9c4495044ea3eb24b86f55c332fe60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ac5b2836417e0e874acbb287f77d03') in 0.001809 seconds 
+  Import took 0.004008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769132 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Bark #1.wav
+  artifactKey: Guid(75f8c882d41cba544a7125759c0af4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Bark #1.wav using Guid(75f8c882d41cba544a7125759c0af4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c458e8a8cf2bd51c40df35fe5705a95d') in 0.006034 seconds 
+  Import took 0.007946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Eating  #5.wav
+  artifactKey: Guid(7e4940315675e64448802bf249855d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Eating  #5.wav using Guid(7e4940315675e64448802bf249855d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f563cf906c71e47cb0af37befb2096') in 0.004759 seconds 
+  Import took 0.005956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Whinning  #5.wav
+  artifactKey: Guid(2f945d04e41f24f4f98dae937f807f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Whinning  #5.wav using Guid(2f945d04e41f24f4f98dae937f807f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3782d9d5bb2eec5e1ca4eabc279c4e3e') in 0.005620 seconds 
+  Import took 0.007267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Barking Large #6.wav
+  artifactKey: Guid(cb4b5ad342aa86945bf5b2dd0d9e7b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Barking Large #6.wav using Guid(cb4b5ad342aa86945bf5b2dd0d9e7b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a10c7c5eb731ae80d5f622f278b27') in 0.008468 seconds 
+  Import took 0.009877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Bark #3.wav
+  artifactKey: Guid(6f3a7ca9e9848244d9354196d0dd438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Bark #3.wav using Guid(6f3a7ca9e9848244d9354196d0dd438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d8244e0bd4d393a4346c8622594082') in 0.004573 seconds 
+  Import took 0.005812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Bark #4.wav
+  artifactKey: Guid(fad559c7de6816e4990346e4a5366d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Bark #4.wav using Guid(fad559c7de6816e4990346e4a5366d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cf3447cb1c2231bdbd46bbc0d7675') in 0.005217 seconds 
+  Import took 0.006397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Bark #5.wav
+  artifactKey: Guid(e8e89443ba2f4af4aa2a53f659fab3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Bark #5.wav using Guid(e8e89443ba2f4af4aa2a53f659fab3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f504343fd26bd23e6354b84ee2b8480') in 0.006975 seconds 
+  Import took 0.008770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sound fx/Animals/Dogs/Dogs Bark #2.wav
+  artifactKey: Guid(70c61dd98e6741240a0e47ead36a9ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Dogs/Dogs Bark #2.wav using Guid(70c61dd98e6741240a0e47ead36a9ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547e17305983ce09a6ac8a3a50258e35') in 0.005609 seconds 
+  Import took 0.007144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.416588 seconds.
+  path: Assets/Sound fx/Animals/Lion
+  artifactKey: Guid(3d16ad5d6f816b248a3d689d9d04d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion using Guid(3d16ad5d6f816b248a3d689d9d04d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fd7b3d1e719d8e254a1252f10c9b28') in 0.001925 seconds 
+  Import took 0.003863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Sound fx/Animals/Lion
+  artifactKey: Guid(3d16ad5d6f816b248a3d689d9d04d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion using Guid(3d16ad5d6f816b248a3d689d9d04d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fd7b3d1e719d8e254a1252f10c9b28') in 0.001292 seconds 
+  Import took 0.002475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049630 seconds.
+  path: Assets/Sound fx/Animals/Lion/Lion Roaring #1.wav
+  artifactKey: Guid(35b85b7ac3a279f49bed8d2679096ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion/Lion Roaring #1.wav using Guid(35b85b7ac3a279f49bed8d2679096ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46286bbc0f57782decac3da52e4fe23d') in 0.006554 seconds 
+  Import took 0.008475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sound fx/Animals/Lion/Lion Roaring #2.wav
+  artifactKey: Guid(40bf484730290b749a1c3668625b53ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion/Lion Roaring #2.wav using Guid(40bf484730290b749a1c3668625b53ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52efee579760d910f1bdcbbcc8b57c27') in 0.005826 seconds 
+  Import took 0.007623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Sound fx/Animals/Lion/Lion Snarl Growl #2.wav
+  artifactKey: Guid(eef9e63d678242245a3966ac0570fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion/Lion Snarl Growl #2.wav using Guid(eef9e63d678242245a3966ac0570fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a9dc53744e463cb16b158bfe267bbe') in 0.005419 seconds 
+  Import took 0.006826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sound fx/Animals/Lion/Lion Snarl Growl #1.wav
+  artifactKey: Guid(c4c856efbed9c914790e814359708bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound fx/Animals/Lion/Lion Snarl Growl #1.wav using Guid(c4c856efbed9c914790e814359708bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c2aa68f17da4acc4cd7a4aded64905') in 0.004948 seconds 
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 900.547439 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0b7555eef9bd15e2e99d0b0833121') in 0.002276 seconds 
+  Import took 0.004747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0b7555eef9bd15e2e99d0b0833121') in 0.001589 seconds 
+  Import took 0.003193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.641725 seconds.
+  path: Assets/Scenes/Select-Level.unity
+  artifactKey: Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select-Level.unity using Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05b2f02f4cd59c8f661c9a8fb8b1e68') in 0.001677 seconds 
+  Import took 0.003581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/Select-Level.unity
+  artifactKey: Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select-Level.unity using Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05b2f02f4cd59c8f661c9a8fb8b1e68') in 0.001292 seconds 
+  Import took 0.002479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.557243 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d25974e5e34190ee60832baaa640f7') in 0.001770 seconds 
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.733491 seconds.
+  path: Assets/Scenes/Select-Level.unity
+  artifactKey: Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select-Level.unity using Guid(e6b9097f24657df43afe36a379442aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5304b434843db75df9904ab3ffbc3c16') in 0.001568 seconds 
+  Import took 0.003492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.885236 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84685930184e006d086aeca3dfa4775d') in 0.001740 seconds 
+  Import took 0.003690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(db0d4aebed5cfe54c9e1940eb7252916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84685930184e006d086aeca3dfa4775d') in 0.001533 seconds 
+  Import took 0.003415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 496.461779 seconds.
+  path: Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png
+  artifactKey: Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png using Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdcd8815dc107096cf81e0d5d9a813e') in 0.028854 seconds 
+  Import took 0.031292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.875657 seconds.
+  path: Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png
+  artifactKey: Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png using Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa01607c06157ab00fd718ea10fcde9') in 0.059907 seconds 
+  Import took 0.062002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.411657 seconds.
+  path: Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png
+  artifactKey: Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/21267043_2110.w032.n003.142B.p1.142-[Converted].png using Guid(170aabc754f6fe54496b555597fcd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1ee8803ee253af991d360dd531ec01') in 0.021003 seconds 
+  Import took 0.023205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 835.159786 seconds.
+  path: Assets/2D images/btn 1.png
+  artifactKey: Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/btn 1.png using Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db98a85360d40e131390265a20c702a') in 0.013234 seconds 
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.932735 seconds.
+  path: Assets/2D images/btn 1.png
+  artifactKey: Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/btn 1.png using Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5255c561058ef7b816c739f2de6e5dab') in 0.008158 seconds 
+  Import took 0.010251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.516889 seconds.
+  path: Assets/2D images/btn 1.png
+  artifactKey: Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/btn 1.png using Guid(6cd23e2772cf8404bae60573241a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cbcb9df602a870c66f93683f1f5fed') in 0.012769 seconds 
+  Import took 0.015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1109.294851 seconds.
+  path: Assets/2D images/BTNMESH.png
+  artifactKey: Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/BTNMESH.png using Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85fbe3126d36c2314145255557d0c92') in 0.016678 seconds 
+  Import took 0.019465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.268020 seconds.
+  path: Assets/2D images/BTNMESH.png
+  artifactKey: Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/BTNMESH.png using Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a49dae58162823bbd308a209ddc8ae9') in 0.026806 seconds 
+  Import took 0.029158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.818246 seconds.
+  path: Assets/2D images/BTNMESH.png
+  artifactKey: Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D images/BTNMESH.png using Guid(e2143acbacc85ed45805e3ba4b9a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28f3c71a4d0d2c266458c0eb7b536ab') in 0.017371 seconds 
+  Import took 0.019717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 740.694328 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/FugazOne-Regular SDF.asset
+  artifactKey: Guid(b63bebf7981ca654f8f412faf19e6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/FugazOne-Regular SDF.asset using Guid(b63bebf7981ca654f8f412faf19e6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a537cc5f41d12f0d3808e962fe66f55') in 0.221586 seconds 
+  Import took 0.224572 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

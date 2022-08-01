@@ -8,11 +8,11 @@ public class PanelOpener : MonoBehaviour
     // Start is called before the first frame update
     
     public void Open()
-    {if (Panel != null)
-        {
-            Panel.SetActive(true);
-        } 
-    }
+    {
+       Panel.SetActive(!Panel.activeSelf);
 
+
+    }
+    
 
 }
