@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e7bf1471fecab2745af7fbb1d5ea3309
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Fugaz One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 78623ef1d1e2cf14887bdac555e8c34e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
