@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine.UI;
 using TMPro;
 using Proyecto26;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,14 +33,19 @@ public class GameManager : MonoBehaviour
           }*/
         //q = RetrieveData();
 
-        RestClient.GetArray<Question>("https://learningkids-a6cb1-default-rtdb.firebaseio.com/Questions/1" + ".json").ThenAll(allQuestions =>
+        RestClient.GetArray<Question>("https://learningkids-a6cb1-default-rtdb.firebaseio.com/Questions/" + ".json").ThenAll(allQuestions =>
         {
             //Debug.Log(reponse.option2.ToString());
-
+            //EditorUtility.DisplayDialog("JSON Array", JsonHelper.ArrayToJsonString<Question>(allQuestions, true), "Ok");
+           //string eya= JsonHelper.ArrayFromJson(allQuestions,true);
             //q = reponse;
-            foreach (Question question in allQuestions)
+            //Question[] question = JsonHelper.FromJson<Question>(eya);
+            
+            //Debug.Log(allQuestions[1].getOption1());
+                        //Debug.Log(eya);
+            for (int i=0 ; i<allQuestions.Length;i++)
             {
-                Debug.Log(question.option2.ToString());
+                Debug.Log(allQuestions[i].getOption1());
 
             }
             return null;
@@ -109,14 +115,14 @@ public class GameManager : MonoBehaviour
     {
         RestClient.GetArray<Question>("https://learningkids-a6cb1-default-rtdb.firebaseio.com/Questions/1"+ ".json").ThenAll(allQuestions  =>
         {
-            //Debug.Log(reponse.option2.ToString());
-
+            Debug.Log(allQuestions[0].option2.ToString());
+    return null;
             //q = reponse;
-            foreach(Question question in allQuestions)
+            /* foreach(Question question in allQuestions)
             {
                 Debug.Log(question.option2.ToString());
                
-            }
+            }*/
 
             //return(List<Question>) allQuestions;
 
