@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65397ced1244a69418212ac48aa960b4, type: 3}
+  m_Name: new question 1
+  m_EditorClassIdentifier: 
+  name: Guess the animal
+  option1: Chicken
+  option2: Meerkat
+  option3: Dog
+  option4: Wolf
+  correctAnswer: Meerkat
+  imageObjet: {fileID: 21300000, guid: 02533172346e36f4a89e611807b47027, type: 3}
