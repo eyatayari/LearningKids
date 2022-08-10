@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 public class QuestionDisplay : MonoBehaviour
-{
-    public Question question;
-      public Image imageObj;
+{    //GameObject GameManager;
+    GameManager GameManager;
+    private Question question;
+    [SerializeField] public Image imageObj;
     public TextMeshProUGUI questionzone;
     public TextMeshProUGUI questionoption1;
     public TextMeshProUGUI questionoption2;
@@ -16,6 +17,9 @@ public class QuestionDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       // Debug.Log(GameManager.FindObjectOfType<GameManager>().currentQuestion );
+        question = GameManager.FindObjectOfType<GameManager>().currentQuestion;
+        Debug.Log(question);
         questionoption1.text = question.option1.ToString();
         questionoption2.text = question.option2.ToString();
         questionoption3.text = question.option3.ToString();
@@ -24,11 +28,18 @@ public class QuestionDisplay : MonoBehaviour
         
         //question.image = Resources.Load<Sprite>("../2D images/animals/ANIMAl");
          imageObj.sprite = question.imageObjet;
-        
+        /*questionoption1.GetComponent<AnswerScript>().iscorrect = false;
+        questionoption2.GetComponent<AnswerScript>().iscorrect = false;
+        questionoption3.GetComponent<AnswerScript>().iscorrect = false;
+        questionoption4.GetComponent<AnswerScript>().iscorrect = false;
+        if (questionoption1.text == question.correctAnswer)
+        {
+            Debug.Log("first answer is correct");
+        }*/
     }
 
     // Start is called before the first frame update
     
-
+    
    
 }

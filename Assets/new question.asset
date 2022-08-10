@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: new question
   m_EditorClassIdentifier: 
   name: Guess the animal
-  option1: 'Lion '
-  option2: Monkey
+  option1: Monkey
+  option2: Dog
   option3: Cat
-  option4: Dog
-  correctAnswer: Lion
-  imageObjet: {fileID: 21300000, guid: a2e00579a5d98234091814fc2b5dd725, type: 3}
+  option4: Wolf
+  correctAnswer: Monkey
+  imageObjet: {fileID: 21300000, guid: c7e0457693811af43a58c5b4f0823034, type: 3}
