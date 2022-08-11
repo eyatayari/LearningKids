@@ -11,4 +11,8 @@ public class Question : ScriptableObject
     public string option4;
     public string correctAnswer;
      public Sprite imageObjet;
+     public List<LevelDatas> myDatas = new List<LevelDatas>();
+     public class LevelDatas {
+     int level ;
+     }
 }
